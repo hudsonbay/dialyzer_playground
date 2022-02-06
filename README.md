@@ -12,7 +12,7 @@ This is the result of following _The Little Elixir & OTP Guidebook_ book from _B
 mix do deps.get, deps.compile
 ```
 
-## Try it
+## Try it and see the errors thrown by `dialyzer`
 
 ```sh
 mix dialyzer
