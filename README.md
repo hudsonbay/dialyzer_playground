@@ -1,21 +1,17 @@
 # DialyzerPlayground
 
-**TODO: Add description**
+This project is a simple currency converter that converts Singapore dollars (SGD) to United States dollars (USD).
+
+It aims to create example files that demonstrate how Dialyzer can catch simple type errors.
 
 ## Installation
 
-If [available in Hex](https://hex.pm/docs/publish), the package can be installed
-by adding `dialyzer_playground` to your list of dependencies in `mix.exs`:
-
-```elixir
-def deps do
-  [
-    {:dialyzer_playground, "~> 0.1.0"}
-  ]
-end
+```sh
+mix do deps.get, deps.compile
 ```
 
-Documentation can be generated with [ExDoc](https://github.com/elixir-lang/ex_doc)
-and published on [HexDocs](https://hexdocs.pm). Once published, the docs can
-be found at <https://hexdocs.pm/dialyzer_playground>.
+## Try it
 
+```sh
+mix dialyzer
+```
