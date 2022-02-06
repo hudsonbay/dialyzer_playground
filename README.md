@@ -17,3 +17,11 @@ mix do deps.get, deps.compile
 ```sh
 mix dialyzer
 ```
+
+## Play with the project
+
+```Elixir
+MyEnum.map(fn x -> x * 2 end, [1,2,3])
+
+Hexy.rgb_to_hex({170, 201, 13})
+```
